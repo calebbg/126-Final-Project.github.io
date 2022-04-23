@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Noto Serif', serif;
+}
