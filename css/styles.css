@@ -1,3 +1,5 @@
+/* All pages */
+
 html, body {
     height: 100%;
     width: 100%;
@@ -10,4 +12,119 @@ h1, h2, h3 {
 
 p {
     font-family: 'Noto Serif', serif;
+}
+
+/* About Page */
+
+.about-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 10% 135% 10%;
+    grid-template-columns: 100%;
+}
+
+.about-header {
+    grid-row: 1;
+    width: 100%;
+    background-color: #6DCDAC;
+}
+
+.middle-section {
+    grid-row: 2;
+    width: 100%;
+    text-align: center;
+    background-color: #FFF9EB;
+}
+
+.about-text {
+    width: 100%;
+    height: 30%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#about-text-body {
+    width: 75%;
+    text-align: center;
+}
+
+.about-team {
+    width: 100%;
+    height: 60%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.team-img-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.team-img {
+    width: 70%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/team.jpg);
+}
+
+@media (min-width: 676px) {
+    .team-img { 
+        width: 55%;
+    }
+
+    .about-text {
+        height: 20%;
+    }
+}
+
+#team-text {
+    width: 75%;
+}
+
+/* Maybe just use a bootstrap button */
+
+/* .about-get-involved-button {
+        width: 15%;
+        height: 5%;
+        padding: 1%;
+        background-color: #FF7E29;
+        background-size: 100%;
+        background-position: 0%;
+        border: transparent;
+        border-radius: 10%;
+        overflow: hidden;
+        color:#FFFFFF;
+        text-align: center;
+        font-style: none;
+} */
+
+.btn-lg, .btn-primary-lg {
+    background-color: #FF7E29 !important;
+    color:white;
+    font-size: 1.5em;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent;
+    text-decoration: none;
+    margin-top: 2%;
+    width: 30%;
+    height: 10%;
+}
+
+.about-footer {
+    grid-row: 3;
+    width: 100%;
+    background-color: #6DCDAC;
 }
