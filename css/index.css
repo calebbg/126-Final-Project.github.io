@@ -6,6 +6,9 @@
     background-color: #6DCDAC;
 }
 
+li a{
+    text-align: end;
+}
 img {
     max-width: 100%;
     max-height: 100%;
@@ -15,7 +18,7 @@ img {
 .carousel-inner img{
     border-radius: 20px;
     aspect-ratio: 4/3;
-    max-height: 600px;
+    max-height: 800px;
     object-fit: cover;
     object-position: center;
 }
