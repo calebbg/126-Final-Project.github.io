@@ -14,7 +14,35 @@
 </head>
 
 <body>
-  
+  <div class="donate-container">
+    <div class="donate-header"></div>
+    <div class="donate-middle-section">
+      <div class="donate-text"><h2 role="heading">Donation</h2></div>
+      <form class="donate-form">
+        <div class="mb-3">
+          <label for="email-field" class="form-label" id="email-text">Email address</label>
+          <br>
+          <input type="email" class="form-control" id="donate-email-field" aria-label="Email field" placeholder="example@email.com">
+        </div>
+        <div class="mb-3">
+          <label for="payment-method" class="form-label">Payment method</label>
+          <br>
+          <input type="text" class="form-control" id="payment-method-field" aria-label="Payment method field" placeholder="Credit, Debit, etc.">
+        </div>
+        <div class="mb-3">
+          <label for="payment-method" class="form-label">Card number</label>
+          <br>
+          <input type="text" class="form-control" id="card-number-field" aria-label="Card number field" placeholder="####-####-####-####">
+        </div>
+        <div class="mb-3">
+          <label for="amount-field" class="form-label">Donation amount</label>
+          <br>
+          <input type="text" class="form-control" id="amount-field" aria-label="Donation amount field" placeholder="$0.00">
+        </div>
+        <button type="submit" class="btn-lg btn-primary-lg" id="donate-submit-btn">Submit</button>
+      </form>
+    </div>
+    <div class="donate-footer"></div>
 </body>
 
 </html>
