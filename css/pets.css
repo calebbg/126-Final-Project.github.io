@@ -3,8 +3,10 @@ html, body {
     width: 100%;
     margin: 0;
 }
-.bg-yellow{
+.bg-yellow {
     background-color: #FFF9EB;
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
 }
 
 .bg-green{
@@ -40,6 +42,7 @@ p {
 }
 
 .petContainer {
+    grid-row: 2/3;
     display: grid;
     width: 100%;
     min-height: 100%;
@@ -65,9 +68,25 @@ p {
 }
 
 .backButton {
-    width: 55%;
-    border-radius: 10%;
-    margin: 5%;
-    padding: 3%;
-    font-size: xx-large;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+.backButton:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.backButton {
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+.about-footer {
+    grid-row: 3/4;
+    width: 100%;
+    background-color: #6DCDAC;
+    height: 100%;
 }
+
