@@ -21,6 +21,12 @@ html, body {
     margin-bottom: 10px;
 }
 
+li a{
+    text-align: end;
+    font-size: larger;
+}
+
+
 .height-100{
     height:100%
 }
