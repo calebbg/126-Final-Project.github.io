@@ -20,8 +20,14 @@ p {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-rows: 10% 135% 10%;
+    grid-template-rows: 51% 135% 10%;
     grid-template-columns: 100%;
+}
+
+@media (min-width: 582px) {
+    .about-container {
+        grid-template-rows: 21% 135% 10%;
+    }
 }
 
 .about-header {
@@ -142,7 +148,6 @@ p {
 }
 
 .get-involved-title {
-    /* margin-bottom: 9%; */
     margin-top: 5%;
     background-color: #FFF9EB;
 }
