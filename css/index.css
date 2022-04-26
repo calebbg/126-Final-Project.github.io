@@ -6,9 +6,19 @@
     background-color: #6DCDAC;
 }
 
+.banner{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-bottom: 10px;
+}
+
 li a{
     text-align: end;
+    font-size: larger;
 }
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -46,4 +56,41 @@ h1, h2, h3 {
     left: 0;
     height: 100% !important;
     width: 100% !important;
+}
+
+.curved{
+    border-radius: 15px;
+    border: 5px solid #F06306;
+}
+
+p{
+    text-align: center;
+}
+
+.volunteer-form-container{
+    max-width: 600px !important;
+}
+.volunteer-title{
+    color: #FF7E29;
+}
+
+.volunteer-form input{
+    width:100%;
+}
+
+.volunteer-submit {
+    background-color: #FF7E29 !important;
+    color:white;
+    font-size: 1.5em;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.volunteer-submit {
+    background-color: #F06306 !important;
+    color:white;
 }
