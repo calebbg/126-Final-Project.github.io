@@ -130,9 +130,15 @@ p {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-rows: 10% 10% 70% 10%;
+    grid-template-rows: 50% 10% 70% 10%;
     grid-template-columns: 100%;
     background-color: #FFF9EB;
+}
+
+@media (min-width: 582px) {
+    .get-involved-container {
+        grid-template-rows: 21% 10% 70% 10%;
+    }
 }
 
 .get-involved-header {
@@ -188,8 +194,14 @@ p {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-rows: 10% 2% 78% 10%;
+    grid-template-rows: 50% 2% 88%;
     grid-template-columns: 100%;
+}
+
+@media (min-width: 582px) {
+    .donate-container {
+        grid-template-rows: 21% 2% 100%;
+    }
 }
 
 .donate-header {
@@ -200,6 +212,7 @@ p {
 
 .donate-text {
     grid-row: 2;
+    margin-top: 2%;
     background-color: #FFF9EB;
 }
 
@@ -214,61 +227,44 @@ p {
 }
 
 .donate-form {
-    width: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 #donate-email-field {
     margin-bottom: 2%;
-    width: 80%;
+    width: 110%;
     padding: 1.5vh;
 }
 
 #payment-method-field {
     margin-bottom: 2%;
-    width: 80%;
+    width: 110%;
     padding: 1.5vh;
 }
 
 #card-number-field {
     margin-bottom: 2%;
-    width: 80%;
+    width: 110%;
     padding: 1.5vh;
 }
 
 #amount-field {
-    width: 80%;
+    width: 110%;
     margin-bottom: 1%;
     padding: 1.5vh;
-}
-
-@media (min-width: 676px) {
-    #donate-email-field {
-        width: 60%;
-    }
-    
-    #payment-method-field {
-        width: 60%;
-    }
-    
-    #card-number-field {
-        width: 60%;
-    }
-    
-    #amount-field {
-        width: 60%;
-    }
 }
 
 #donate-submit-btn {
     width: 100px;
     height: 50px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     border-radius: 10%;
     margin: 1%;
-}
-
-.donate-footer {
-    grid-row: 4;
-    width: 100%;
-    background-color: #6DCDAC;
+    padding-bottom: 3.3%;
+    text-align: center;
 }
