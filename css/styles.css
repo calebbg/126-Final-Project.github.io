@@ -141,10 +141,16 @@ p {
     text-align: center;
 }
 
-.get-involved-text {
-    margin-bottom: 9%;
+.get-involved-title {
+    /* margin-bottom: 9%; */
     margin-top: 5%;
     background-color: #FFF9EB;
+}
+
+.get-involved-text {
+    margin: 5%;
+    margin-top: 1%;
+    text-align: center;
 }
 
 .get-involved-button1 {
