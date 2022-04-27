@@ -19,10 +19,11 @@ li a{
     font-size: larger;
 }
 
-a:hover{
+.banner a:hover{
     color: #F06306 !important;
     text-decoration: underline;
 }
+
 img {
     max-width: 100%;
     max-height: 100%;
