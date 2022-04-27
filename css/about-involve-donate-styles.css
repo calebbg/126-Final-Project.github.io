@@ -176,24 +176,19 @@ li a{
 .donate-container {
     display: grid;
     width: 100%;
-    /* grid-template-rows: 30% 2% 88%;
-    grid-template-columns: 100%; */
 }
 
 .donate-header {
-    /* grid-row: 1; */
     width: 100%;
     background-color: #6DCDAC;
 }
 
 .donate-text {
-    /* grid-row: 2; */
-    margin-top: 2%;
+    margin: 1%;
     background-color: #FFF9EB;
 }
 
 .donate-middle-section {
-    /* grid-row: span 2 / 4; */
     width: 100%;
     background-color: #FFF9EB;
     display: flex;
@@ -237,7 +232,7 @@ li a{
 
 #donate-submit-btn {
     width: 100px;
-    height: 50px;
+    /* height: 50px; */
     font-size: 1.2em;
     border-radius: 10%;
     margin: 1%;
