@@ -99,3 +99,11 @@ p{
     background-color: #F06306 !important;
     color:white;
 }
+
+.volunteer-img{
+    max-width: 600px !important;
+}
+
+.volunteer-img img{
+    border-radius: 15px;
+}
