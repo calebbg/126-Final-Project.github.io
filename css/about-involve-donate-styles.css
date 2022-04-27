@@ -4,6 +4,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
+    background-color: #FFF9EB;
 }
 
 h1, h2, h3 {
@@ -42,21 +43,9 @@ li a{
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-rows: 21% 135% 10%;
+    grid-template-rows: 0% 135% 10%;
     grid-template-columns: 100%;
 }
-
-/* @media (min-width: 582px) {
-    .about-container {
-        grid-template-rows: 21% 135% 10%;
-    }
-} */
-
-/* .about-header {
-    grid-row: 1;
-    width: 100%;
-    background-color: #6DCDAC;
-} */
 
 .about-middle-section {
     grid-row: 2;
@@ -69,7 +58,7 @@ li a{
     width: 100%;
     height: 30%;
     margin: 1%;
-    margin-top: 3%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,43 +130,20 @@ li a{
     color:white;
 }
 
-.about-footer {
-    grid-row: 3;
-    width: 100%;
-    background-color: #6DCDAC;
-}
-
 /* Get Involved Page */
 
 .get-involved-container {
-    display: grid;
     width: 100%;
-    height: 100%;
-    grid-template-rows: 50% 10% 70% 10%;
-    grid-template-columns: 100%;
     background-color: #FFF9EB;
 }
 
-/* @media (min-width: 582px) {
-    .get-involved-container {
-        grid-template-rows: 21% 10% 70% 10%;
-    }
-} */
-
-/* .get-involved-header {
-    grid-row: 1;
-    width: 100%;
-    background-color: #6DCDAC;
-} */
-
 .gi-middle-section {
-    grid-row: span 2 / 4;
     width: 100%;
     text-align: center;
 }
 
 .get-involved-title {
-    margin-top: 5%;
+    margin-top: 4%;
     background-color: #FFF9EB;
 }
 
@@ -205,42 +171,24 @@ li a{
     font-size: xx-large;
 }
 
-.get-involved-footer {
-    grid-row: 4;
-    width: 100%;
-    background-color: #6DCDAC;
-}
-
 /* Donate Page */
 
 .donate-container {
     display: grid;
     width: 100%;
-    height: 100%;
-    grid-template-rows: 50% 2% 88%;
-    grid-template-columns: 100%;
-}
-
-@media (min-width: 582px) {
-    .donate-container {
-        grid-template-rows: 21% 2% 100%;
-    }
 }
 
 .donate-header {
-    grid-row: 1;
     width: 100%;
     background-color: #6DCDAC;
 }
 
 .donate-text {
-    grid-row: 2;
-    margin-top: 2%;
+    margin: 1%;
     background-color: #FFF9EB;
 }
 
 .donate-middle-section {
-    grid-row: span 2 / 4;
     width: 100%;
     background-color: #FFF9EB;
     display: flex;
@@ -284,7 +232,7 @@ li a{
 
 #donate-submit-btn {
     width: 100px;
-    height: 50px;
+    /* height: 50px; */
     font-size: 1.2em;
     border-radius: 10%;
     margin: 1%;
