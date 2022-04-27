@@ -239,3 +239,7 @@ li a{
     padding-bottom: 3.3%;
     text-align: center;
 }
+
+footer p{
+    margin-bottom: 0px;
+}

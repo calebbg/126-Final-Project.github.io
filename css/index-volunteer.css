@@ -53,6 +53,7 @@ h1, h2, h3 {
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 .responsive-map iframe{
@@ -106,4 +107,8 @@ p{
 
 .volunteer-img img{
     border-radius: 15px;
+}
+
+footer p{
+    margin-bottom: 0px;
 }
