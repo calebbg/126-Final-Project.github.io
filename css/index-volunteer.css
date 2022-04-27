@@ -95,7 +95,7 @@ p{
     padding: 10px 15px;
 }
 
-.btn-lg:hover, .btn-lg:focus {
+.volunteer-submit:hover {
     background-color: #F06306 !important;
     color:white;
 }
