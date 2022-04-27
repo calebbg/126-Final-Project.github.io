@@ -130,3 +130,143 @@ p {
     width: 100%;
     background-color: #6DCDAC;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 890px) { 
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .bg-yellow{
+        background-color: #FFF9EB;
+        display: grid;
+        grid-template-rows: 51% 60% 10%;
+    }
+    
+    .bg-green{
+        background-color: #6DCDAC;
+    }
+    
+    .banner{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 10px;
+    }
+    
+    li a{
+        text-align: end;
+        font-size: larger;
+    }
+    
+    a:hover{
+        color: #F06306 !important;
+        text-decoration: underline;
+    }
+    
+    
+    .height-100{
+        height:100%
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    
+    
+    
+    h1, h2, h3 {
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    p {
+        font-family: 'Noto Serif', serif;
+    }
+    
+    .title {
+        text-align: center;
+        margin: 60px;
+    }
+    
+    
+    .browseContainer {
+        grid-row: 1/2;
+        display: grid;
+        width: 100%;
+        min-height: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .pet1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: left;
+        padding: 10px;
+        height: 13rem;
+        border-radius: 10px;
+        margin: 60px;
+    }
+    
+    .pet2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: left;
+        padding: 10px;
+        height: 10rem;
+        border-radius: 10px;
+        margin: 60px;
+    }
+    
+    .pet3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: left;
+        padding: 10px;
+        height: 10rem;
+        border-radius: 10px;
+        margin: 60px;
+    }
+    
+    .pet4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: left;
+        padding: 10px;
+        height: 10rem;
+        border-radius: 10px;
+        margin: 60px;
+    }
+    
+    .pet5 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        text-align: left;
+        padding: 10px; 
+        height: 10rem;
+        border-radius: 10px;
+        margin: 60px;
+    }
+    .pet6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        text-align: left;
+        padding: 10px;
+        height: 10rem;
+        border-radius: 10px;
+        margin: 60px;
+    }
+    
+    .about-footer {
+        grid-row: 3/4;
+        width: 100%;
+        background-color: #6DCDAC;
+    }
+}
