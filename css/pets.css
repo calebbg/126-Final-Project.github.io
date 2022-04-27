@@ -5,8 +5,6 @@ html, body {
 }
 .bg-yellow {
     background-color: #FFF9EB;
-    display: grid;
-    grid-template-rows: 20% 70% 10%;
 }
 
 .bg-green{
@@ -50,16 +48,11 @@ p {
     font-family: 'Noto Serif', serif;
 }
 
-.title {
-    text-align: center;
-    margin: 60px;
-}
 
 .petContainer {
-    grid-row: 2/3;
     display: grid;
     width: 100%;
-    min-height: 100%;
+    
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
@@ -83,8 +76,10 @@ p {
 
 .backButton {
     text-decoration: none;
-    display: inline-block;
+    height: 50px;
     padding: 8px 16px;
+    color: black;
+    background-color: #6DCDAC;
   }
   
 .backButton:hover {
@@ -92,18 +87,6 @@ p {
     color: black;
   }
   
-.backButton {
-    background-color: #f1f1f1;
-    color: black;
-  }
-
-.about-footer {
-    grid-row: 3/4;
-    width: 100%;
-    background-color: #6DCDAC;
-    height: 100%;
-}
-
 footer p{
     margin-bottom: 0px;
 }
