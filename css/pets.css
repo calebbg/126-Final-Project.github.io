@@ -104,3 +104,6 @@ p {
     height: 100%;
 }
 
+footer p{
+    margin-bottom: 0px;
+}
