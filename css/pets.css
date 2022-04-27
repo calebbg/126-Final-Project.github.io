@@ -14,7 +14,21 @@ html, body {
 }
 
 .banner{
-    height: 100px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-bottom: 10px;
+}
+
+li a{
+    text-align: end;
+    font-size: larger;
+}
+
+a:hover{
+    color: #F06306 !important;
+    text-decoration: underline;
 }
 
 .height-100{
