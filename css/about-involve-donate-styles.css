@@ -72,7 +72,6 @@ footer p{
     align-items: center;
     text-align: center;
 }
-
 .team-img-container {
     width: 100%;
     display: flex;
@@ -80,7 +79,14 @@ footer p{
 }
 
 .team-img {
-    width: 40%;
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+@media (min-width: 700px) {
+    .team-img {
+        width: 50%;
+    }
 }
 
 #team-text {
