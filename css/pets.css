@@ -53,20 +53,15 @@ p {
 .petContainer {
     display: grid;
     width: 100%;
-    height: 40rem;
-    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .petImg {
-    grid-column: 1/2;
-    grid-row: 1/2;
     margin: 10px;
 }
 
 .petParagraph {
-    grid-column: 2/3;
-    grid-row: 1/2;
     text-align: center;
 }
 
@@ -77,20 +72,30 @@ p {
 
 .backButton {
     text-decoration: none;
-    height: 50px;
-    padding: 8px 16px;
+    padding: 16px 32px;
     color: black;
-    background-color: #ddd;
+    font-size: x-large;
+    background-color: #FF7E29;
     border-radius: 10px;
     width: 100px;
-  }
+}
   
 .backButton:hover {
-    background-color: #6DCDAC;
-    color: black;
-  }
-  
+    background-color: #F06306;
+    color: black !important;
+}
+
+
 footer p{
     margin-bottom: 0px;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .petContainer {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
 }
