@@ -30,7 +30,7 @@ li a{
     text-align: end;
     font-size: larger;
 }
-
+black
 .nav-link:hover{
     color: #F06306 !important;
     text-decoration: underline;
@@ -146,7 +146,7 @@ footer p{
 
 .donate-submit {
     background-color: #FF7E29 !important;
-    color:white;
+    color:black;
     font-size: 1.5em;
     outline: none !important;
     box-shadow: none !important;
@@ -158,5 +158,5 @@ footer p{
 
 .donate-submit:hover, .donate-submit:focus {
     background-color: #F06306 !important;
-    color:white;
+    color:black;
 }

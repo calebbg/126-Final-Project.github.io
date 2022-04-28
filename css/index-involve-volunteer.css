@@ -28,9 +28,19 @@ li a{
 img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+/* Index */
 .carousel-inner img{
     border-radius: 20px;
     aspect-ratio: 5/3;
@@ -41,11 +51,6 @@ img {
 
 .bold{
     font-weight: bold;
-}
-
-h1, h2, h3 {
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
 }
 
 
@@ -70,10 +75,8 @@ h1, h2, h3 {
     border: 5px solid #F06306;
 }
 
-p{
-    text-align: center;
-}
 
+/* Get Involved */
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1px 1fr;
@@ -87,6 +90,8 @@ p{
     aspect-ratio: 1/1;
     margin-bottom: 20px;
     border-radius: 15px;
+    width: 100%;
+    height: auto;
 }
 
 .button{
@@ -155,6 +160,7 @@ p{
 }
 
 
+/* Volunteer Page */
 .volunteer-form-container{
     max-width: 600px !important;
 }
@@ -169,7 +175,7 @@ p{
 
 .volunteer-submit {
     background-color: #FF7E29 !important;
-    color:white;
+    color:black;
     font-size: 1.5em;
     outline: none !important;
     box-shadow: none !important;
@@ -181,7 +187,7 @@ p{
 
 .volunteer-submit:hover {
     background-color: #F06306 !important;
-    color:white;
+    color:black;
 }
 
 .volunteer-img{
