@@ -15,6 +15,7 @@
 }
 
 li a{
+    color: black !important;
     text-align: end;
     font-size: larger;
 }
@@ -32,7 +33,7 @@ img {
 
 .carousel-inner img{
     border-radius: 20px;
-    aspect-ratio: 4/3;
+    aspect-ratio: 5/3;
     max-height: 800px;
     object-fit: cover;
     object-position: center;
@@ -73,9 +74,91 @@ p{
     text-align: center;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    grid-template-rows: auto;
+    column-gap: 10%;
+}
+
+#volunteer-img, #donation-img{
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.button{
+    padding: 15px;
+    max-width: 1500px;
+    background-color: #FF7E29;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    font-size: x-large;
+    margin: 5px auto;
+}
+
+.button:hover{
+    color: black;
+    background-color: #F06306;
+
+}
+
+@media only screen and (max-width: 576px) {
+    .grid-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+    }
+
+    .volunteer-header{
+        grid-row: 1;
+    }
+
+    .volunteer-body{
+        grid-row: 2;
+    }
+
+    .volunteer-image{
+        grid-row: 3;
+    }
+
+    .volunteer-button{
+        grid-row: 4;
+    }
+    
+    .separator{
+        grid-row:5;
+        height: 1px !important;
+        margin: 20px 0px;
+    }
+
+    .donation-header{
+        grid-row: 6;
+    }
+
+    .donation-body{
+        grid-row: 7;
+    }
+
+    .donation-image{
+        grid-row: 8;
+    }
+
+    .donation-button{
+        grid-row: 9;
+    }
+}
+
+
 .volunteer-form-container{
     max-width: 600px !important;
 }
+
 .volunteer-title{
     color: #FF7E29;
 }

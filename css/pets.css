@@ -20,6 +20,7 @@ html, body {
 }
 
 li a{
+    color: black !important;
     text-align: end;
     font-size: larger;
 }

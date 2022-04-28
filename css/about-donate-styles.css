@@ -27,6 +27,7 @@ p {
 }
 
 li a{
+    color: black !important;
     text-align: end;
     font-size: larger;
 }
@@ -95,8 +96,8 @@ footer p{
 
 .btn-lg, .btn-primary-lg {
     background-color: #FF7E29 !important;
-    color:white;
-    font-size: 1.5em;
+    color:black;
+    font-size: xx-large;
     outline: none !important;
     box-shadow: none !important;
     border-color: transparent;
@@ -104,11 +105,12 @@ footer p{
     text-align: center;
     width: 30%;
     padding: 1.3%;
+    border-radius: 15px;
 }
 
 .btn-lg:hover, .btn-lg:focus {
     background-color: #F06306 !important;
-    color:white;
+    color:black;
 }
 
 /* Get Involved Page */
