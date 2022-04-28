@@ -94,6 +94,10 @@ p{
     height: auto;
 }
 
+.separator-vertical{
+    background-color: #F06306;
+}
+
 .button{
     padding: 15px;
     max-width: 1500px;
@@ -136,10 +140,11 @@ p{
         grid-row: 4;
     }
     
-    .separator{
+    .separator-horizontal{
         grid-row:5;
         height: 1px !important;
         margin: 20px 0px;
+        background-color: #F06306;
     }
 
     .donation-header{
