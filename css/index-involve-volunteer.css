@@ -20,7 +20,7 @@ li a{
     font-size: larger;
 }
 
-.banner a:hover{
+.banner a:hover, .banner a:focus{
     color: #F06306 !important;
     text-decoration: underline;
 }
@@ -110,7 +110,7 @@ p{
     margin: 5px auto;
 }
 
-.button:hover{
+.button:hover, .button:focus{
     color: black;
     background-color: #F06306;
 
@@ -190,7 +190,7 @@ p{
     padding: 10px 15px;
 }
 
-.volunteer-submit:hover {
+.volunteer-submit:hover , .volunteer-submit:focus{
     background-color: #F06306 !important;
     color:black;
 }

@@ -186,7 +186,7 @@ footer p{
         font-size: larger;
     }
     
-    a:hover{
+    a:hover, a:focus{
         color: #F06306 !important;
         text-decoration: underline;
     }
@@ -325,7 +325,7 @@ footer p{
         font-size: larger;
     }
     
-    a:hover{
+    a:hover, a:focus{
         color: #F06306 !important;
         text-decoration: underline;
     }

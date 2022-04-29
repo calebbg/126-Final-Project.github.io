@@ -25,7 +25,7 @@ li a{
     font-size: larger;
 }
 
-a:hover{
+a:hover, a:focus{
     color: #F06306 !important;
     text-decoration: underline;
 }
@@ -80,7 +80,7 @@ p {
     width: 100px;
 }
   
-.backButton:hover {
+.backButton:hover, .backButton:focus {
     background-color: #F06306;
     color: black !important;
 }

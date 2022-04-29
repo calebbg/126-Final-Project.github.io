@@ -31,7 +31,7 @@ li a{
     font-size: larger;
 }
 
-.nav-link:hover{
+.nav-link:hover, .nav-link:focus{
     color: #F06306 !important;
     text-decoration: underline;
 }
